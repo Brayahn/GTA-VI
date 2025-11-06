@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
 
-const final = () => {
+const Final = () => {
     const videoRef = useRef(null);
 
 
@@ -51,4 +51,4 @@ const final = () => {
   )
 }
 
-export default final
+export default Final

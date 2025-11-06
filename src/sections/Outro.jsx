@@ -19,7 +19,7 @@ const Outro = () => {
         tl.to ('.final-content', {
             opacity: 0,
             duration: 1,
-            ease: 'power1.inOut'
+            ease: 'power1.inOut' 
         })
 
         tl.to ('.final-message', {
