@@ -15,11 +15,6 @@ RUN addgroup app && adduser -S -G app app
 # set the working directory to /app
 WORKDIR /app
 
-
-
-
-
-
 # copy package.json and package-lock.json to the working directory
 # This is done before copying the rest of the files to take advantage of Docker’s cache
 # If the package.json and package-lock.json files haven’t changed, Docker will use the cached dependencies
